@@ -3,7 +3,7 @@ app:
   profile:
   replicaCount: 1
   hostAliases: []
-  image: /test-img:latest
+  image: chaos-manual-test.kr-central-1.kcr.dev/hands-on/test-img:latest
   # test-project.kr-central-1.kcr.dev/hands-on/test-img:latest
   resources: {}
   service:
