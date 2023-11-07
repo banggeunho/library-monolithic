@@ -23,4 +23,4 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         push: true
-        tags: ${{ secrets.PROJECT_NAME }}.kr-central-1.kcr.dev/hands-on/kep-library:${{ env.TIME }}
+        tags: ${{ secrets.PROJECT_NAME }}.kr-central-1.kcr.dev/${{ secrets.REPOSITORY_NAME }}/kep-library:${{ env.TIME }}
